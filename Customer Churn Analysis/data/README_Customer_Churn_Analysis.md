@@ -1,7 +1,7 @@
 
 # 📊 Customer Churn Analysis Project
 
-This end-to-end data analytics project uses Python, Snowflake SQL, and Tableau to identify factors that influence customer churn. It involves data cleaning, EDA, SQL transformations, and visual storytelling through dashboards.
+This end-to-end data analytics project uses Python, Snowflake SQL, and Tableau to identify factors influencing customer churn. It involves data cleaning, EDA, SQL transformations, and visual storytelling through dashboards.
 
 ---
 
@@ -77,5 +77,5 @@ To analyse customer behaviour and identify key factors leading to churn using Te
 ## 👩‍💻 Author
 
 **Sohini Roy Chowdhury**  
-_Data Analyst | Tableau & Python Enthusiast_  
-🔗 [LinkedIn]((https://www.linkedin.com/in/sohinirc/))
+_Data Analyst | Tableau, Power BI & Python Enthusiast_  
+🔗 [LinkedIn](https://www.linkedin.com/in/sohinirc/)
