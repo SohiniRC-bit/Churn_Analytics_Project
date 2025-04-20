@@ -1,14 +1,14 @@
 
 # 📊 Customer Churn Analysis Project
 
-This end-to-end data analytics project focuses on identifying factors that influence customer churn using Python, Snowflake SQL, and Tableau. It involves data cleaning, EDA, SQL transformations, and visual storytelling through dashboards.
+This end-to-end data analytics project uses Python, Snowflake SQL, and Tableau to identify factors that influence customer churn. It involves data cleaning, EDA, SQL transformations, and visual storytelling through dashboards.
 
 ---
 
 ## 🚀 Project Overview
 
 **Objective:**  
-To analyze customer behavior and identify key factors leading to churn using Telco data, enabling better decision-making for retention strategies.
+To analyse customer behaviour and identify key factors leading to churn using Telco data, enabling better decision-making for retention strategies.
 
 **Tools & Technologies:**
 - 🐍 Python (Pandas, Seaborn, Matplotlib)
@@ -16,29 +16,6 @@ To analyze customer behavior and identify key factors leading to churn using Tel
 - 📊 Tableau (Dashboard creation)
 - 📁 CSV (Data files)
 
----
-
-## 📁 Folder Structure
-
-```bash
-customer-churn-analysis/
-│
-├── data/
-│   └── Telco_cleaned.csv            # Cleaned dataset ready for analysis
-│
-├── notebooks/
-│   └── churn_analysis.ipynb         # Python EDA & preprocessing notebook
-│
-├── sql/
-│   └── churn_queries.sql            # SQL queries executed in Snowflake
-│
-├── tableau/
-│   └── dashboard_link.txt           # Public link to Tableau dashboard
-│
-├── screenshots/
-│   └── tableau_dashboard.png        # Preview of the dashboard
-│
-└── README.md                        # Project overview and instructions
 ```
 
 ---
@@ -54,9 +31,9 @@ customer-churn-analysis/
 ### 2. Snowflake SQL Layer
 - Uploaded cleaned CSV to Snowflake using Web UI
 - Created `TELCO_CLEANED` table under `CHURN_ANALYSIS_DB.PUBLIC`
-- Executed SQL queries for churn segmentation, tenure buckets, service usage patterns
+- Executed SQL queries for churn segmentation, tenure buckets, and service usage patterns
 
-### 3. Visualization (Tableau)
+### 3. Visualisation (Tableau)
 - Connected Tableau to Snowflake live
 - Built KPI cards, bar charts, heatmaps, and filters
 - Created an interactive dashboard to explore churn across multiple dimensions
@@ -69,9 +46,9 @@ customer-churn-analysis/
 ## 📌 Key Business Insights
 
 - Customers with month-to-month contracts are more likely to churn.
-- High churn is observed in customers with fiber optic internet.
+- High churn is observed in customers with fibre-optic internet.
 - Longer tenure generally results in lower churn probability.
-- Additional services like OnlineBackup or StreamingTV impact churn trends.
+- Additional services like OnlineBackup or Streamingtv impact churn trends.
 
 ---
 
@@ -84,7 +61,7 @@ customer-churn-analysis/
 
 2. **Run Python EDA**
    ```bash
-   jupyter notebook notebooks/churn_analysis.ipynb
+   Jupyter notebook notebooks/churn_analysis.ipynb
    ```
 
 3. **Upload to Snowflake**
@@ -97,17 +74,8 @@ customer-churn-analysis/
 
 ---
 
-## 📈 Future Enhancements
-
-- Build churn prediction model (Logistic Regression / XGBoost)
-- Automate Snowflake upload using Python connector
-- Deploy a Power BI version of the dashboard
-- Add cohort or LTV analysis
-
----
-
 ## 👩‍💻 Author
 
 **Sohini Roy Chowdhury**  
 _Data Analyst | Tableau & Python Enthusiast_  
-🔗 [LinkedIn](https://www.linkedin.com/in/sohini-roy-chowdhury)
+🔗 [LinkedIn]((https://www.linkedin.com/in/sohinirc/))
